@@ -1,13 +1,42 @@
 body {
-  background-color: #db3b81;
+  background-color: #fff;
   font-family: "Open Sans, sans-serif";
+  color: #fff;
 }
-
+a {
+  color: #885df1;
+  font-size: 16px;
+}
 .App {
-  background: #eaaac5;
+  background: black;
   max-width: 550px;
   margin: 30px auto;
   padding: 25px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 08);
   border-radius: 15px;
+}
+header {
+  border-bottom: 1px solid #693364;
+  padding: 0 0 30px 0;
+}
+.search-input {
+  border-radius: 6px;
+  border: none;
+  padding: 15px 15px;
+  width: 80%;
+  font-size: 16px;
+}
+.search-button {
+  background-color: #693364;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 6px;
+  color: #eaaac5;
+}
+footer {
+  border-top: 1px solid #693364;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: white;
 }
